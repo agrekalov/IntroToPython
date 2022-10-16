@@ -7,7 +7,7 @@ import seaborn as sns
 import sys
 
 def update(frame_number, rolls, faces, frequencies):
-    """Configsdures bar plot contents for each animation frame."""
+    """Configures bar plot contents for each animation frame."""
     # roll die and update frequencies
     for i in range(rolls):
         frequencies[random.randrange(1, 7) - 1] += 1 
